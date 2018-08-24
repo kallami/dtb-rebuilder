@@ -808,7 +808,7 @@
 	P9_31_pinmux {
 		compatible = "bone-pinmux-helper";
 		status = "okay";
-		pinctrl-names = "default", "gpio", "gpio_pu", "gpio_pd", "pwm", "spi", "pruout", "pruin";
+		pinctrl-names = "default", "gpio", "gpio_pu", "gpio_pd", "pwm", "spi_sclk", "pruout", "pruin";
 		pinctrl-0 = <&P9_31_default_pin>;
 		pinctrl-1 = <&P9_31_gpio_pin>;
 		pinctrl-2 = <&P9_31_gpio_pu_pin>;
